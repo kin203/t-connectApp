@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hm"
+        android:title="Quận Hoàng Mai"
+        ></item>
+    <item
+        android:id="@+id/hbt"
+        android:title="Quận Hai Bà Trưng"
+        ></item>
+    <item
+        android:id="@+id/cg"
+        android:title="Quận Cầu Giấy"
+        ></item>
+    <item
+        android:id="@+id/lb"
+        android:title="Quận Long Biên"
+        ></item>
+    <item
+        android:id="@+id/th"
+        android:title="Quận Tây Hồ"
+        ></item>
+    <item
+        android:id="@+id/dd"
+        android:title="Quận Đống Đa"
+        ></item>
+</menu>

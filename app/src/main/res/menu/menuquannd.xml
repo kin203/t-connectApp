@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/quatnam"
+        android:title="Quất Lâm"
+        ></item>
+    <item
+        android:id="@+id/doson"
+        android:title="Đồ Sơn"
+        ></item>
+    <item
+        android:id="@+id/ninhhiep"
+        android:title="Ninh Hiệp"
+        ></item>
+</menu>

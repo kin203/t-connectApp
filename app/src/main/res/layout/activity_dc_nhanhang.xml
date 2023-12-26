@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:orientation="vertical"
+    tools:context=".ActivityDiaChiNhan">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EDEDED"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#fff"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Địa chỉ nhận hàng"
+                android:textAlignment="center"
+                android:layout_margin="0dp"
+                android:textSize="22sp"
+
+                android:drawableLeft="@drawable/baseline_close_24"/>
+
+            <TextView
+                android:id="@+id/txtDiaChi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:text="Nhập địa chỉ nhận hàng"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtTen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên người nhận"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtHoten"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nhập họ và tên người nhận "
+                    android:inputType="text"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Số điện thoại"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nhập số điện thoại nhận hàng"
+                    android:inputType="phone"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtNhapDc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Địa chỉ nhận hàng"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtNhapDc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nhập số nhà, tên đường..."
+                    android:inputType="text"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtThanhPho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tỉnh/ Thành phố"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtThanhPho"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_keyboard_arrow_down_24"
+                    android:ems="10"
+                    android:hint="Chọn Tỉnh/ Thành phố"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtQuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Quận/ Huyện"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtQuan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_keyboard_arrow_down_24"
+                    android:ems="10"
+                    android:hint="Chọn Quận/Huyện"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/txtPhupng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phường/ Xã"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edtPhuong"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/baseline_keyboard_arrow_down_24"
+                    android:ems="10"
+                    android:hint="Chọn Phường/ Xã"
+                    android:inputType="text"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnNhanHang"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cus_btn"
+
+                android:text="Giao đến địa chỉ này" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

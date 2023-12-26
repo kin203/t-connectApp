@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/hn"
+        android:title="Hà Nội"
+        ></item>
+    <item
+        android:id="@+id/hy"
+        android:title="Hưng Yên"
+        ></item>
+    <item
+        android:id="@+id/qn"
+        android:title="Quảng Ninh"
+        ></item>
+    <item
+        android:id="@+id/nd"
+        android:title="Nam Định"
+        ></item>
+</menu>
